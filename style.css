@@ -1,0 +1,22 @@
+#Cabecalho {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.Destaque {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1, 5;
+    background-color: black;
+    color: white;
+}
