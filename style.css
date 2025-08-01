@@ -17,6 +17,13 @@
 p {
     font-family: Arial, sans-serif;
     line-height: 1, 5;
-    background-color: black;
-    color: white;
+    color: black;
 }
+
+#a{
+    text-align:center;
+}
+
+#b{
+    background-color: black;
+} 
