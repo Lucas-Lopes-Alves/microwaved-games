@@ -1,67 +1,49 @@
 #Cabecalho {
     color: white;
     text-align: left;
-    font-size: 30px;
-    border-bottom: 10px solid white;
-
+    font-size: 25px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    width: 100%;
+    display: flex;
+    line-height: 40px;
+    gap: 15px;
 }
 
-.Destaque {
+#logo-canto {
+    width: 150px;
+    height: 117px;
+    margin: 20px 0 0 0;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
     color: white;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+body p {
+    color: white;
 }
 
 p {
-    font-family: Arial, sans-serif;
     line-height: 1, 5;
     color: black;
 }
 
-#a{
-    text-align:center;
+#centro img {
+    display: block;
+    margin: 96px auto auto auto;
+    width: 250px;
+    height: 250px;
 }
 
-body{
-    background-color: rgb(30,30,30);
-
+#centro h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: auto auto auto 20px;
 }
 
-#linha{
-    border-bottom: 5px solid white;
-    position:absolute;
-    left: 10px;
-    top:10px;
-}
-
-#c{
-    position: absolute;
-    left: 1700px;
-    top: 500px;
-}
-
-#b{
-    width: 300px;
-    height: 300px;
-}
-
-#m{
-    font-size: 150px;
-    color:white;
-    position:absolute;
-    left:1500px;
-    top:800px;
-}
-
-#n{
-    position:absolute;
-    left:150px
-}
-
-#microondas{
-    position: absolute;
-    left:350px;
-    top:75px;
-    font-size: 90px
+#butao {
+    margin: 10px 400px auto;
 }
