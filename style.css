@@ -16,6 +16,7 @@ body {
     display: flex;
     line-height: 40px;
     gap: 22px;
+    position: relative;
 }
 
 #superiorcentro {
@@ -29,8 +30,7 @@ body {
     font-size: 18px;
     color: white;
     border: 0;
-    margin: auto 1px auto;
-    padding: 0;
+    padding: auto 2px auto;
 }
 
 .botao {
@@ -67,7 +67,7 @@ body {
     font-size: 18px;
     color: white;
     border: 0;
-    margin: auto 1px auto;
+    margin: auto ;
     padding: 0;
 }
 
@@ -100,14 +100,14 @@ p {
 #centro h1 {
     text-align: center;
     font-size: 50px;
-    margin: 0 auto auto 20px;
+    margin: 0 auto auto 0%;
 }
 
-#butao {
+#botoes {
     text-align: center;
 }
 
-#butao button {
+#botoes button {
     text-align: center;
     border-radius: 8px;
     width: 156px;
