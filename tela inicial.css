@@ -78,6 +78,10 @@ body {
     color: white;
 }
 
+#entrar {
+    margin-right: 11px;
+}
+
 #login{
     background-color: rgba(44, 45, 44, 1);
 }
@@ -117,6 +121,7 @@ p {
 
 #botoes {
     text-align: center;
+    margin: 50px auto auto auto;
 }
 
 #botoes button {
