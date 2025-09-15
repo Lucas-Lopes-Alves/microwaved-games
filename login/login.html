@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tela flutuante, sobre você">
+    <meta name="keywords" content="Visualizar sua conto">
+    <meta name="author" content="Patrick Eduardo Almeida Ramos">
+    <title>MicroWaved Games</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="imagem/png" href="../img/Logobranca.png" alt="Microondas branco com um controle de vídeo-game dentro sem fundo">
+</head>
+
+<body>
+    <div id="Cabecalho">
+        <img id="logo-canto" src="../img/Logobranca.svg" width="117" height="148.98" alt="Microondas branco com um controle de vídeo-game dentro sem fundo">
+        <h1 id="microondas">Microwaved<br>Games</h1>
+    </div>
+
+    <div class="tema">
+            <label class="trocar">
+                <input type="checkbox" onclick="trocartema()">
+                <span class="controle deslizante"></span>
+            </label>
+    </div>
+     
+    <div class="login-box">
+        <img src="../img/login.png.png" alt="Imagem de login transparente" width="117" height="148.98">
+     <form>
+        <input type="text" placeholder="Digite seu nome de usuário ou email" id="login-input">
+        <input type="password" placeholder="Digite sua senha" id="login-input">
+        <button type="submit" id="login-button">Logar</button>
+     </form>
+    </div>
+    
+   </div>
+
+   <script src="login.js"></script>
+</body>
+</html>
