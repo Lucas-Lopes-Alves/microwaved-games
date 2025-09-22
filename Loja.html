@@ -4,28 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja</title>
+    <title>Microwaved Games Loja</title>
     <link rel="stylesheet" href="./Loja.css">
 </head>
 
 <body>
-    <h1>Microwavedgames<h1>
 
-            <h2>Destaques da semana</h2>
-            <ul>
-                <li>Half-Life3 </li>
-                <li>Produto 2</li>
-                <li>Produto 3</li>
-            </ul>
+    <div id="Cabecalho">
 
-            <div>
-                <h3>Half-life 3</h3>
-                <img src="./img/Jogo 1.jpg" alt="img" Width="200">
-                <p>preço: R$ 25,00</p>
-                <p>-90% de desconto</p>
+        <img id="logo-canto" src="./img/Logobranca.jpg" alt="Descrição da imagem">
+        <h1 id="microondas">Microwaved <br> Games</h1>
+
+        <div id="superiorcentro">
+            <input class="pesquisa" type="text" placeholder="Pesquisar">
+            <a href="#"><button id="Produtos">Jogos</button></a>
+
+        </div>
+
+        <div class="carrinho-fixo">
+            <div class="icone-carrinho">
+                <a href="/carrinho"><img src="/img/carrinho.png" alt="Carrinho de Compras"></a>
+                <span id="avatarfdp"><img src="./img/avatarfdp.png" alt=""></span>
             </div>
+        </div>
 
-            <link rel="stylesheet" href="./Loja.css">
+    </div>
+    <div id="Jogo">
+        <h2 id="Destaques da semana">Destaques da semana</h2>
+        <div class="Jogos">
+            <h3>Half-life 3</h3>
+            <img src="./img/Jogo 1.jpg" alt="img" Width="200">
+            <p id="preço">Preço: R$ 25,00</p>
+            <p id="desconto">-90% de Desconto</p>
+        </div>
+        <div class="Jogos">
+            <h3>Cyberpunk 2077</h3>
+            <img src="./img/Cyberpunk 2077.png" alt="img" width="200">
+            <p id="preço">Preço: R$ 80,00</p>
+            <p id="desconto">-70% de Desconto</p>
+        </div>
+        <div class="Jogos">
+            <h3>GTA VI</h3>
+            <img src="./img/GTAVI.png" alt="img" width="200">
+            <p id="preço">Preço: R$ 200,00</p>
+            <p id="desconto">-10% de Desconto</p>
+        </div>
+    </div>
 </body>
 
 </html>
