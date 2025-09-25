@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(30, 30, 30);
+    font-family: inter, sans-serif;
+    margin: 0;
+    border: 0;
+}
+
+#Cabecalho {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    display: inline-block;
+    border-bottom: 5px solid white;
+    width: 100;
+    display: flex;
+    line-height: 40px;
+    gap: 22px;
+    position: relative;
+    background: url(../img/Captura\ de\ tela\ 2025-09-16\ 161329.png);
+}
+
+h1, p, h2 {
+    color: white;
+}
