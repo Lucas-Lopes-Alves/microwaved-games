@@ -1,6 +1,8 @@
 body {
     background-color: rgba(30, 30, 30, 1);
     font-family: inter;
+    margin: 0;
+    padding: 0;
 }
 
 #Cabecalho {
@@ -44,6 +46,15 @@ body {
     font-size: 30px;
 }
 
+.botoesn {
+    color: white;
+    width: 132px;
+    border: 0;
+    background-color: rgba(44, 44, 44, 1);
+    margin-left: 10px;
+    font-size: 1px;
+}
+
 .pesquisa {
     width: 306px;
     height: 40px;
@@ -84,4 +95,10 @@ body {
 button:hover {
     transition: 0.2s ;
     box-shadow: 4px 7px 10px black;
+}
+
+#avatarfdp {
+    background-color: rgba(255, 255, 255, 1);
+    background-size: 75px 75px;
+    border-radius: 25px;
 }
