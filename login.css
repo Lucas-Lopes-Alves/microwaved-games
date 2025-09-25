@@ -1,0 +1,175 @@
+body{
+    background-color: rgb(30, 30, 30);
+    font-family: inter sans-serif;
+    margin: 0;
+    border: 0;
+    transition: 0.58;
+    background: url(../img/tela\ de\ fundo\ login.png);
+    font-family: "inter";
+}
+
+body.telaflutuante{
+    background-color: rgb(30, 30, 30);
+}
+
+#Cabecalho {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    display: inline-block;
+    border-bottom: 5px solid white;
+    width: 100%;
+    display: flex;
+    line-height: 40px;
+    gap: 22px;
+    position: relative;
+    background: url(../img/Captura\ de\ tela\ 2025-09-16\ 161329.png);
+}
+
+.login-box{
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0.8px, 32px, 38px rgba(70, 30, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: (1313.5px);
+    border-radius: 15px;
+    border: solid rgba(255, 255, 255, 0.10);
+    width: 30%;
+    margin: 0 auto auto auto;
+    height: 500px;
+    margin-top: 50px;
+    padding-top: 100px center;
+    padding-right: 15px ;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+
+.login-box h1 {
+    text-align: center;
+    color: rgb(30, 30, 30);
+    transition: 0.5s;
+}
+
+.login-box h1.telaflutuante {
+    color: white;
+}
+
+.login-box img {
+    margin: 30px 219px 0;
+    width: 172px;
+    height: 170px;
+}
+
+.login-box p {
+    margin-left: 286px;
+}
+
+.tema {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10x;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+
+input {
+    width: 80%;
+    margin-bottom: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+input.telaflutuante {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+form button {
+    width: 20%;
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+form button.telaflutuante {
+    background-color: rgb(30, 30, 30);
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: rgb(121, 118, 118);
+}
+
+form button.telaflutuante:hover {
+    background-color: rgb(30, 30, 30);
+}
+
+form button:focus {
+    outline: none;
+}
+
+.trocar {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    height: 34px;
+    margin-left: 48%;
+}
+
+.trocar input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: 34px;
+    transition: 0.5s;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.trocar input:checked + .slider {
+    background-color: rgb(30, 30, 30);
+}
+
+.trocar input:checked + .slider::before {
+    transform: translateX(26px);
+}
