@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(30, 30, 30);
+    font-family: inter sans-serif;
+    margin: 0;
+    border: 0;
+    transition: 0.58;
+    background: url(../img/suporte.png);
+}
+
+#Cabecalho {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    display: inline-block;
+    border-bottom: 5px solid white;
+    width: 100%;
+    display: flex;
+    line-height: 40px;
+    gap: 22px;
+    position: relative;
+    background: url(../img/Captura\ de\ tela\ 2025-09-16\ 161329.png);
+}
+
+.chat-container {
+    width: 30%;
+    height: 500px;
+    background-color:rgba(255, 255, 255, 0.35);
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    margin-left: 720px;
+}
+
+.chat-header {
+color: black;
+padding: 20px;
+text-align: center;
+border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+transition: 0.5s;
+}
+
+.chat-box {
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    max-height: 350px; /* Adicione essa linha */
+  }
+  
+
+.message {
+    padding: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.user-message {
+    background-color: white;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: rgba(50, 38, 38, 0.1);
+    align-self: flex-start;
+}
+
+.chat-input {
+    display: flex;
+    padding: 15px;
+    border-top: 2px solid black;
+}
+
+.user-input {
+    flex-grow: 1;
+    border: 20px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+}
+
+.send-btn {
+    background-color: rgba(255, 255, 255, 0.10);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
