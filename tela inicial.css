@@ -149,15 +149,12 @@ p {
     margin: auto 520px auto 520px;
     font-size: 40px;
 }
-
-#texto-centro p {
-    margin-left: 100px;
-    text-shadow: 10px 10px 1px rgba(30, 30, 30, 1);
-}
 .texto {
     border-radius: 50px;
-    background-image: radial-gradient( url(./img/Rectangle.png));
+    background-repeat: no-repeat;
+    background-color: rgba(30, 30, 30, 0.5);
     backdrop-filter: blur(23.1px);
+    text-align: center;
 }
 
 button:hover {
