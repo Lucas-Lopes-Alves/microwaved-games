@@ -97,8 +97,9 @@ button:hover {
     box-shadow: 4px 7px 10px black;
 }
 
-#avatarfdp {
+.avatarfdp {
     background-color: rgba(255, 255, 255, 1);
     background-size: 75px 75px;
     border-radius: 25px;
+    margin: auto 50px auto auto;
 }
