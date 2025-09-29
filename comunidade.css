@@ -110,9 +110,12 @@ button:hover {
 .centro {
     text-align: center;
     color: white;
-    background-color: rgba(2, 0, 35, 0.334);
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.headcentro {
+    background-color: rgba(2, 0, 35, 0.334);
     border-radius: 25px;
 }
 
@@ -140,5 +143,15 @@ button:hover {
 .outrotitulo {
     margin-top: 40px;
     font-size: 40px;
-    margin: auto 50px auto auto;
+    background-color: rgba(2, 0, 35, 0.334);
+    border-radius: 25px;
+}
+
+.postagem {
+    background-color: rgba(2, 0, 35, 0.334);
+    border-radius: 25px;
+}
+
+.postagem p {
+    font-size: 30px;
 }
