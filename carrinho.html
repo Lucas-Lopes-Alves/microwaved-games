@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de Jogos</title>
+    <title>Microwaved Games Carrinho</title>
     <link rel="stylesheet" href="carrinho.css">
+    <link rel="shortcut icon" href="./img/Logobranca.jpg" type="image/jpg">
 </head>
+
 <body>
 
-    <h1>CARRINHO</h1>
+    <div id="Cabecalho">
 
-    <div class="header">
-        <div class="logo">
-            <img src="Logo.svg" alt="Logo">
-            <p>MicroWaved Games</p>
+        <img id="logo-canto" src="./img/Logobranca.jpg" alt="Descrição da imagem">
+        <h1 id="microondas">Microwaved <br> Games</h1>
+
+        <div id="superiorcentro">
+            <input class="pesquisa" type="text" placeholder="Pesquisar">
+            <a href="#"><button id="Produtos">Jogos</button></a>
+
         </div>
-            <a href="#">Jogo</a>
-            <a href="#">Preços</a>
-            <a href="#">Desconto</a>
-            <a href="#">Carrinho</a>
+        <div>
+            <img class="avatar" src="./img/avatarfdp.png" alt="">
         </div>
     </div>
-    <div class="container">
-        <div class="produto">
-            <div class="imagem-produto">
-                <img src="half life.jpg" alt="Half Life 3">
-            </div>
-            <div class="detalhes-produto">
-                <h2>Half Life 3</h2>
-                <p>Preço: <span>R$ 25,00</span></p>
-                <p>Desconto: <span class="desconto">-10%</span></p>
-            </div>
-            <div class="actions">
-                <button class="comprar">Comprar</button>
-            </div>
-        </d
+    </div>
+    <div id="Jogo">
+
+        <div class="Jogos">
+            <h3>Half-life 3</h3>
+            <img class="imagem" src="./img/Half-life3.jpg" alt="img" Width="200">
+            <p id="preço">Preço: R$ 25,00</p>
+            <p id="desconto">-90% de desconto</p>
+            <a><button id="Comprar">Comprar</button></a>
+        </div>
+        <div class="Jogos">
+            <h3>cyberpunk 2077</h3>
+            <img class="imagem" src="./img/Cyberpunk 2077.png" alt="img" width="200">
+            <p id="preço">Preço: R$ 80,00</p>
+            <p id="desconto">-70% de desconto</p>
+            <a><button id="Comprar">Comprar</button></a>
+        </div>
+        <div class="Jogos">
+            <h3>GTA VI</h3>
+            <img class="image" src="./img/GTAVI.png" alt="img" width="200">
+            <p id="preço">Preço: R$ 200,00</p>
+            <p id="desconto">-10% de desconto</p>
+            <a ><button id="Comprar">Comprar</button></a>
+        </div>
+    </div>
