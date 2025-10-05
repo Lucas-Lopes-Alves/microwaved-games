@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgba(30, 30, 30, 1);
     font-family: inter;
@@ -15,7 +19,7 @@ body {
     line-height: 40px;
     gap: 22px;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 #superiorcentro {
@@ -25,7 +29,7 @@ body {
 #superiorcentro button {
     border-radius: 8px;
     height: 40px;
-    width: 100px;
+    width: 110px;
     font-size: 18px;
     color: white;
     border: 0;
@@ -41,17 +45,8 @@ body {
     width: 132;
     border: 0;
     background-color: rgba(44, 44, 44, 1);
-    margin-left: 10px;
     font-size: 30px;
-}
-
-#botoesn {
-    color: white;
-    width: 132px;
-    border: 0;
-    background-color: rgba(44, 44, 44, 1);
     margin-left: 10px;
-    background-size: auto 100 ;
 }
 
 .pesquisa {
@@ -91,7 +86,7 @@ body {
     margin: 20px 0 0 0;
 }
 
-button:hover {
+#superiorcentro button:hover {
     transition: 0.2s ;
     box-shadow: 4px 7px 10px black;
 }
@@ -108,3 +103,64 @@ button:hover {
 }
 
 /*Centro*/
+
+.secoes {
+    margin-left: 450px;
+    width: 700px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction:row;
+}
+
+.secoes button {
+    margin-right: 20px;
+    border-radius: 15px;
+    background-color: rgba(44, 44, 44, 1);
+    color: white;
+    border: 0;
+    width: 110px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.secoes a {
+    width:110px ;
+    height:50px ;
+    margin-right: 20px;
+}
+
+.secoes button:hover, a:hover {
+    transition: ease 0.2s ;
+    border-bottom: 2px solid white;
+}
+
+.configuracoes {
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.configuracoes button {
+    background-color: rgba(44, 44, 44, 1);
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    width: 150px;
+}
+
+.configuracoes img {
+    margin-top: 10px;
+}
+
+.configuracoes h2 {
+    background-color: black;
+    border-radius: 15px;
+}
